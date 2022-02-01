@@ -8,11 +8,11 @@
 %% problem 1
 %a_average=v-vo/t
 %part a
-t = [1:1:12];   
-v0 = 0;       
-v = 40;         
+t = [1:1:12];   %array 1-12 +1 
+v0 = 0;          %initial speed 0m/s
+v = 40;         %Final final speed 40m/s 
 a_average = (v-v0)./t
-
+%lowest acceleration is 3.333(repeating) m/s 
 %part b
 b = [a_average(1:6);a_average(7:12)]
 c = b(2,:)
